@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class PobieranieDanychOdUzytkownika {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        
         System.out.println("What is your name?");
         String name = scanner.nextLine();
 
@@ -12,5 +12,6 @@ public class PobieranieDanychOdUzytkownika {
         int age = scanner.nextInt();
 
         System.out.println("Hi " + name + "! Your age is " + age);
+        scanner.close();
     }
 }
